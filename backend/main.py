@@ -1,5 +1,4 @@
-from fastapi 
-import FastAPI
+from fastapi import FastAPI
 import Depends 
 import HTTPException
 from fastapi.middleware.cors import CORSMiddleware
