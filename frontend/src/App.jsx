@@ -81,7 +81,7 @@ function App() {
     };
 
     try {
-      const response = await axios.post('http://localhost:8000/api/v1/predict', payload);
+      const response = await axios.post('https://nexus-edge-pjrm.onrender.com', payload);
       setResults(response.data.results);
     } catch (err) {
       console.error(err);
